@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', 'Source Sans Pro', sans-serif;
   color: black;
   background-color: white;
-  height: 100%;
 }
 
 .navbar {
@@ -23,7 +22,6 @@ body {
   position: relative;
   margin-top: 25px;
   width: 100vw;
-  height: 275px;
   /* background-color: #1a1a1a; */
   background-color: #0089c4;
   text-align: center;
