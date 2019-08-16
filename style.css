@@ -1,0 +1,418 @@
+body {
+  font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+  color: black;
+  background-color: white;
+  height: 100%;
+}
+
+.navbar {
+  /* background-color: #1a1a1a; */
+  background-color: #0089c4;
+}
+
+
+.page-top-header {
+  width: 100vw;
+  min-height: 300px;
+  /* background-color: #1a1a1a; */
+  background-color: #0089c4;
+  text-align: center;
+}
+
+.page-top-header-notif {
+  position: relative;
+  margin-top: 25px;
+  width: 100vw;
+  height: 275px;
+  /* background-color: #1a1a1a; */
+  background-color: #0089c4;
+  text-align: center;
+}
+
+#mainNav {
+  color: white !important;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#header-notif {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  color: rgb(256, 256, 256, 0.7);
+  height: 50px;
+  font-size: 13px;
+  /* background-color: #0f0f0f; */
+  background-color: #0078b0;
+  text-align: center;
+  margin: auto;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+}
+
+.header-info {
+  height: 100%;
+  padding: 9%;
+  text-align: center;
+}
+
+.header-info-committee {
+  height: 100%;
+  padding: 9% 50px ;
+  margin-left: 1rem;
+  text-align: left;
+  color: white;
+}
+
+.header-info-about {
+  display: flex;
+  height: 300px;
+  margin: auto;
+  color: white;
+}
+
+.header-about-text {
+  margin: auto;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 2.5em;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.header-text {
+  margin: auto;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  font-size: 1.9em;
+  text-transform: uppercase;
+}
+
+
+
+.index-apply-button {
+  margin-top: 75px;
+  padding: 8px 25px;
+  color: white;
+  background: none;
+  font-size: 13.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.index-apply-button a {
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+	display: block;
+}
+
+.index-apply-button:hover {
+	background-color: rgba(255,255,255,0.2);
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-text {
+    font-size: 1.4em;
+  }
+
+  .index-apply-button {
+    margin-top: 55px;
+  }
+}
+
+#preview-info {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  padding: 10px 100px;
+  margin-top: 30px;
+}
+
+.index-preview {
+  margin: 80px 100px;
+}
+
+.main-header-style {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 2.3em;
+}
+
+.main-header-style-committee {
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 2.5em;
+}
+
+.main-header-style-chair {
+  margin-bottom: 50px;
+}
+
+
+.big-text {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.big-text-committee {
+  font-size: 1.05em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  width: 80%;
+  color: white;
+}
+
+.big-text-about {
+  margin-top: 50px;
+  font-size: 1.05em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  width: 80%;
+  color: black;
+}
+
+#about-preview-img {
+  width: 100%;
+}
+
+.left-col {
+  padding-right: 50px;
+}
+
+.right-col {
+  padding-left: 50px;
+}
+
+.pbl-button {
+  position: relative;
+  padding: 8px 25px;
+  color: black;
+  background: none;
+  font-size: 13.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.pbl-button a {
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+	display: block;
+}
+
+.pbl-button:hover {
+	background-color: rgba(255,255,255,0.2);
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.learn-more-link {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+	position: relative;
+	z-index: 1;
+	display: inline-flex;
+	padding-bottom: 5px;
+	padding-right: 15px;
+}
+
+.learn-more-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.learn-more-link::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, #c0dffa 60%, rgba(0, 0, 0, 0) 60%);
+	position: absolute;
+	left: 10px;
+	bottom: 2px;
+	z-index: -1;
+}
+
+.learn-more-link:hover::before{
+	width: 0;
+}
+
+.learn-more-link::before{
+	transition: width .25s ease-out;
+}
+
+.learn-more-link:hover::before{
+	transition-duration: .25s;
+}
+
+.committee-link-preview {
+  margin-bottom: 30px;
+}
+
+.footer {
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+  color: #abadb0;
+  background-color: #232c36;
+}
+
+.footer-berkeleypbl-text {
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  padding: 30px 5px 20px 5px;
+}
+
+.footer-icon-link {
+  color: white;
+  text-decoration: none;
+  transition: .25s linear;
+}
+
+.footer-icon-link:hover {
+  color: #abadb0;
+  text-decoration: none;
+}
+
+/** MEET THE CHAIRS */
+.officer-img {
+  width: 55%;
+}
+
+.officer-desc {
+  width: 75%
+}
+
+.officer-img-ex {
+  width: 80%;
+}
+
+.officer-desc-ex {
+  width: 85%
+}
+
+
+.officer-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  padding: 10px 0 2px 0;
+}
+
+.officer-position {
+  margin: 0;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+  padding: 0 0 10px 0;
+}
+
+.officer-blurb {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ex-row {
+  padding-top: 50px;
+}
+
+.photo-header {
+  height: 90vh;
+  width: 100vw;
+  padding-top: 150px;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+}
+
+.photo-header-about {
+  background: url("./imgs/about/header.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.three-pillars {
+  display: inline-block;
+}
+
+.pillar {
+  display: inline-block;
+  padding: 50px 25px 0 25px;
+
+}
+
+.pillar-img {
+  width: 100px;
+}
+
+.pillar-text {
+  font-size: 1.05em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  width: 80%;
+  color: black;
+}
+
+.company-logos {
+  text-align: center;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0px 10px 10px 10px;
+  width: 60px;
+  overflow: hidden;
+}
+
+.logo-img {
+  width: 100%;
+}
