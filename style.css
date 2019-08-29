@@ -190,7 +190,8 @@ body {
 }
 
 .main-header-style-apply {
-  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(0, 22, 114, 0.9);
 }
 
 .big-text {
@@ -450,8 +451,11 @@ body {
 
 /** Timeline for apply.html */
 .timeline-info {
+  position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
+  top: -250px;
+  z-index: 10;
 }
 
 .timeline {
@@ -464,7 +468,7 @@ body {
   content: '';
   position: absolute;
   width: 3px;
-  background-color: #bdbdbd;
+  background-color: #0073E7;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -484,9 +488,9 @@ body {
   width: 17px;
   height: 17px;
   right: -7px;
-  background-color: #bdbdbd;
-  border: 3px solid white;
-  top: 15px;
+  background-color: #0073E7;
+  /* border: 3px solid rgb(256, 256, 256, 0.5); */
+  top: 23px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -509,7 +513,7 @@ body {
   right: 30px;
   border: medium solid #4d92eb;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #4d92eb;
+  border-color: transparent transparent transparent rgb(0, 84, 168, 0.7);
 }
 
 .timeline-container-right::before {
@@ -522,16 +526,16 @@ body {
   left: 30px;
   border: medium solid #4d92eb;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #4d92eb transparent transparent;
+  border-color: transparent rgb(0, 84, 168, 0.7) transparent transparent;
 }
 
 .timeline-container-right::after {
   left: -10px;
 }
-
+/* #4d92eb */
 .timeline-content {
   padding: 20px 30px;
-  background-color: #4d92eb;
+  background-color: rgb(0, 84, 168, 0.7);
   display: flex;
   align-items: center;
   /* box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.2); */
@@ -599,9 +603,9 @@ body {
 
   .timeline-container::before {
     left: 60px;
-    border: medium solid #4d92eb;
+    border: medium solid rgb(0, 84, 168, 0.7);
     border-width: 10px 10px 10px 0;
-    border-color: transparent #4d92eb transparent transparent;
+    border-color: transparent rgb(0, 84, 168, 0.7) transparent transparent;
   }
 
   .timeline-container-left::after, .timeline-container-right::after {
